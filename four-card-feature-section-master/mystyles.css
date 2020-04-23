@@ -1,0 +1,62 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: white;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to white */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+h6 {
+  /* font-size: 100; */
+  text-align: center;
+}
+
+.row {
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 10px;
+
+  /* margin-left: 20px;
+  margin-right: 80px; */
+}
+
+.card {
+  /* border-top-width: 5px; */
+  width: 310px;
+  height: 260px;
+  box-shadow: 1px 10px 18px #888888;
+  /* border-top-width: thick; */
+  margin-left: 50px;
+}
+
+.card-image {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+#footer {
+  text-align: center;
+  font-size: 11px;
+
+}
